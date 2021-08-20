@@ -3,7 +3,7 @@ HEROKU = True   # NOTE Make it false if you're not deploying on heroku.
 # NOTE these values are for heroku.
 if HEROKU:
     from os import environ
-    API_ID = int(environ["5969777"])
+    API_ID = int(environ["7"])
     API_HASH = environ["f87a20613ac285f394cb2a949952698b"]
     SUDO_CHAT_ID = int(environ["-1001161613115"])
     OWNER_ID = int(environ["1957876808"])
